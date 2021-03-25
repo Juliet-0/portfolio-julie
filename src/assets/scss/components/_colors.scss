@@ -1,0 +1,49 @@
+:root {
+  --main-color: #ff60f4;
+  --color-secondary: #9241ff;
+  --color-bg-home: #f8f0fe;
+  --gradient-color: linear-gradient(
+    to left,
+    var(--main-color),
+    var(--color-secondary)
+  );
+  --background-color: white;
+  --text-color: black;
+  --boxShadow: 0px 0px 15px 2px rgba(50, 68, 228, 0);
+}
+
+span,
+div,
+h2,
+h3,
+p,
+b,
+.alt-i,
+section {
+  transition: color 1s ease, background-color 1s ease, border-color 1s ease;
+
+  span::before {
+    transition: color 1s ease;
+  }
+}
+
+span:not(.alt-download),
+b,
+h2,
+h3,
+a,
+li,
+p:not(.info-footer) {
+  color: var(--text-color);
+}
+
+.alt-github {
+  .path1::before {
+    color: var(--text-color) !important;
+  }
+}
+
+ellipse.round-avatar {
+  transition: stroke 1s ease;
+  stroke: var(--text-color) !important;
+}

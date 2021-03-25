@@ -1,0 +1,74 @@
+.tool_container {
+  width: 10vw;
+  position: fixed;
+  top: 400px;
+  margin: 0 10px;
+
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
+
+  p {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .color {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      margin: 10px;
+      opacity: 0.5;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &.active {
+        opacity: 1;
+      }
+
+      &.color-green {
+        background-color: #70df7c;
+      }
+
+      &.color-blue {
+        background-color: #4e00e3;
+      }
+
+      &.color-red {
+        background-color: #ea5f5f;
+      }
+
+      &.color-purple {
+        background-color: #ae4cfc;
+      }
+
+      &.color-turquoise {
+        background-color: #13e2da;
+      }
+
+      &.color-orange {
+        background-color: #ff6b00;
+      }
+
+      &.color-light-purple {
+        background-color: #737dfe;
+      }
+
+      &.color-yellow {
+        background-color: #ffd74a;
+      }
+
+      &.color-main {
+        background-color: #ff60f4;
+      }
+    }
+  }
+}

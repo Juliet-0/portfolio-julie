@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 253 251" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <ellipse cx="126.068" cy="125.432" rx="121.603" ry="121.6" style="fill:none;"/>
+    <clipPath id="_clip1">
+        <ellipse cx="126.068" cy="125.432" rx="121.603" ry="121.6"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <g>
+            <g id="Personnage">
+                <g id="Calque13">
+                    <path d="M125.259,141.504L117.557,168.047C124.048,175.206 142.188,172.875 157.165,167.504C152.288,157.7 152.239,149.207 150.772,139.049" style="fill:url(#_Linear2);stroke:black;stroke-width:0.42px;"/>
+                </g>
+                <g id="Calque18">
+                    <g id="Calque19">
+                        <path d="M85.222,160.114C64.356,185.718 58.874,223.292 67.065,271.493C68.762,281.51 62.099,336.055 61.494,368.34C83.13,322.511 103.288,274.154 85.222,160.114Z" style="fill:rgb(164,101,169);stroke:black;stroke-width:0.42px;"/>
+                    </g>
+                    <path d="M121.832,679.344L72.667,295.309L80.46,268.033C75.147,233.12 73.087,194.689 85.593,160.65C124.139,158.203 138.531,163.467 175.594,165.889C189.557,166.803 201.725,178.263 225.228,198.545C234.784,206.791 257.299,229.792 258.279,231.456C258.873,232.444 220.903,281.066 199.591,299C198.273,292.261 194.69,286.89 189.038,282.763C199.501,270.455 210.861,260.833 224.429,241.844C233.219,229.545 219.75,225.599 178.485,204.344L159.324,255.972L172.48,276.106C180.586,293.414 84.678,319.2 72.667,295.309" style="fill:rgb(164,101,169);stroke:black;stroke-width:0.42px;"/>
+                </g>
+                <g id="Calque8">
+                    <path d="M145.344,27.596C89.835,26.682 68.664,94.984 85.807,167.009C86.754,170.964 104.128,170.914 119.501,168.196L125.333,142.781" style="fill:rgb(51,12,0);"/>
+                </g>
+                <g>
+                    <g id="Calque31">
+                        <ellipse cx="93.907" cy="116.854" rx="6.128" ry="6.28" style="fill:none;stroke:rgb(255,227,52);stroke-width:0.76px;"/>
+                    </g>
+                </g>
+                <g id="visage">
+                    <path d="M128.645,47.294C77.445,67.914 87.553,141.471 128.381,142.064C132.912,142.122 142.048,143.267 151.085,138.893L189.409,92.718L128.645,47.294" style="fill:url(#_Linear3);stroke:black;stroke-width:1px;"/>
+                </g>
+                <g id="Calque7">
+                    <path d="M145.344,27.596C190.686,28.832 212.871,103.247 181.789,175.907C177.884,185.034 157.404,177.513 150.023,173.517C151.654,126.132 163.756,76.003 128.546,47.516C135.45,42.186 142.757,35.447 145.344,27.596Z" style="fill:rgb(51,12,0);"/>
+                </g>
+                <g>
+                    <g id="nez">
+                        <path d="M121.298,89.572C123.374,98.552 121.256,104.491 114.666,107.194L118.81,112.309" style="fill:none;stroke:black;stroke-width:1px;"/>
+                    </g>
+                </g>
+                <g id="bouche">
+                    <path d="M108.791,120.069C117.96,125.16 126.322,124.608 134.016,119.385" style="fill:none;stroke:black;stroke-width:1px;"/>
+                </g>
+                <g id="Calque3">
+                    <g>
+                        <g id="Calque9">
+                            <path d="M137.024,87.299C138.894,87.299 140.473,88.706 140.546,90.44C140.62,92.174 139.161,93.582 137.291,93.582C135.421,93.582 133.843,92.174 133.769,90.44C133.696,88.706 135.154,87.299 137.024,87.299Z" style="fill:rgb(84,0,5);"/>
+                            <g>
+                                <g id="Calque10">
+                                    <ellipse cx="137.161" cy="90.441" rx="0.609" ry="0.567" style="fill:rgb(0,0,5);stroke:black;stroke-width:1.11px;"/>
+                                </g>
+                                <g>
+                                    <g id="Calque30">
+                                        <path d="M138.796,89.004C138.43,88.807 137.993,88.947 137.82,89.316C137.647,89.686 137.804,90.146 138.169,90.343C138.535,90.54 138.972,90.4 139.145,90.031C139.318,89.661 139.161,89.201 138.796,89.004Z" style="fill:white;stroke:white;stroke-width:0.18px;"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <path d="M131.042,91.738C135.96,85.807 141.414,84.456 147.626,89.571C145.797,93.732 141.035,95.313 133.019,94.045" style="fill:none;stroke:black;stroke-width:0.85px;"/>
+                    <path d="M130.704,91.021C134.445,83.203 144.339,83.368 148.128,88.418" style="fill:none;stroke:black;stroke-width:0.42px;"/>
+                </g>
+                <g id="Calque32" serif:id="Calque3">
+                    <g>
+                        <g id="Calque91" serif:id="Calque9">
+                            <path d="M103.252,83.924C105.014,83.924 106.5,85.25 106.57,86.884C106.639,88.517 105.265,89.844 103.503,89.844C101.741,89.844 100.254,88.517 100.185,86.884C100.116,85.25 101.49,83.924 103.252,83.924Z" style="fill:rgb(84,0,5);"/>
+                            <g>
+                                <g>
+                                    <g id="Calque11">
+                                        <ellipse cx="103.381" cy="86.88" rx="0.532" ry="0.5" style="stroke:black;stroke-width:1.11px;"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g id="Calque301" serif:id="Calque30">
+                                        <path d="M102.822,85.459C102.421,85.459 102.059,85.778 102.014,86.171C101.968,86.564 102.257,86.883 102.657,86.883C103.058,86.883 103.42,86.564 103.465,86.171C103.51,85.778 103.222,85.459 102.822,85.459Z" style="fill:white;stroke:white;stroke-width:0.18px;"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <path d="M113.228,89.659C109.401,83.455 104.551,81.558 98.256,85.742C99.452,89.912 103.64,91.952 111.146,91.638" style="fill:none;stroke:black;stroke-width:0.85px;"/>
+                </g>
+                <g id="Calque12">
+                    <path d="M114.031,89.102C111.922,82.973 103.387,78.747 97.629,84.62" style="fill:none;stroke:black;stroke-width:0.42px;"/>
+                </g>
+                <g>
+                    <g id="Calque4">
+                        <path d="M130.801,81.303C128.475,81.038 128.161,79.942 128.762,78.465C137.157,74.558 147.682,74.787 151.212,83.961C145.552,78.197 138.804,78.84 130.801,81.303Z" style="fill:rgb(84,0,5);"/>
+                    </g>
+                </g>
+                <g id="Calque5">
+                    <path d="M96.757,78.193C102.069,73.052 107.843,71.397 114.391,75.474C115.895,76.414 114.774,79.997 113.27,79.495C111.251,78.811 107.736,72.962 96.757,78.193Z" style="fill:rgb(84,0,5);"/>
+                </g>
+                <g id="oreille">
+                    <path d="M162.899,112.44C163.154,105.94 161.96,100.001 159.876,94.045C161.589,82.495 169.712,81.91 170.239,94.045C170.659,103.535 170.173,109.475 162.899,112.44Z" style="fill:url(#_Linear4);"/>
+                    <g>
+                        <g id="Calque311" serif:id="Calque31">
+                            <ellipse cx="162.984" cy="116.854" rx="6.128" ry="6.28" style="fill:none;stroke:rgb(255,227,52);stroke-width:0.76px;"/>
+                        </g>
+                    </g>
+                </g>
+                <g id="Calque14">
+                </g>
+                <g id="Chaussure-droite" serif:id="Chaussure droite">
+                </g>
+                <g id="Chaussure-gauche" serif:id="Chaussure gauche">
+                </g>
+            </g>
+        </g>
+    </g>
+    <path d="M126.068,2.015C57.951,2.015 2.648,57.316 2.648,125.432C2.648,193.548 57.951,248.849 126.068,248.849C194.185,248.849 249.488,193.548 249.488,125.432C249.488,57.316 194.185,2.015 126.068,2.015ZM126.068,5.649C192.18,5.649 245.854,59.322 245.854,125.432C245.854,191.542 192.18,245.215 126.068,245.215C59.956,245.215 6.282,191.542 6.282,125.432C6.282,59.322 59.956,5.649 126.068,5.649Z"/>
+    <defs>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(142.909,0,0,142.909,93.905,384.14)"><stop offset="0" style="stop-color:rgb(255,185,148);stop-opacity:1"/><stop offset="0.21" style="stop-color:rgb(255,196,163);stop-opacity:1"/><stop offset="0.43" style="stop-color:rgb(255,207,178);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(255,212,185);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(142.909,0,0,142.909,93.905,384.14)"><stop offset="0" style="stop-color:rgb(255,185,148);stop-opacity:1"/><stop offset="0.21" style="stop-color:rgb(255,196,163);stop-opacity:1"/><stop offset="0.43" style="stop-color:rgb(255,207,178);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(255,212,185);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear4" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(142.909,0,0,142.909,93.905,384.14)"><stop offset="0" style="stop-color:rgb(255,185,148);stop-opacity:1"/><stop offset="0.21" style="stop-color:rgb(255,196,163);stop-opacity:1"/><stop offset="0.43" style="stop-color:rgb(255,207,178);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(255,212,185);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

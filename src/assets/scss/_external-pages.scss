@@ -1,0 +1,161 @@
+@import "./components/colors.scss";
+
+header.header-external-pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  position: fixed;
+  top: 0;
+  background-color: var(--background-color);
+  width: 100%;
+  z-index: 2000;
+
+  .alt-logo {
+    font-size: 80px;
+
+    @media screen and (max-width: 425px) {
+      font-size: 60px;
+    }
+  }
+
+  a.back {
+    text-decoration: none;
+
+    span {
+      font-size: 30px;
+      margin-right: 100px;
+
+      color: var(--text-color);
+
+      @media screen and (max-width: 1025px) {
+        margin-right: 180px;
+      }
+
+      @media screen and (max-width: 1025px) {
+        margin-right: 100px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    padding: 20px 10px;
+  }
+}
+
+#web-development,
+#web-design,
+#graphic-design {
+  margin: 0 15vw;
+
+  height: auto;
+
+  p {
+    font-size: 25px;
+
+    &.project-description {
+      width: 50vw;
+      margin-bottom: 25px;
+
+      @media screen and (max-width: 1025px) {
+        width: auto;
+        margin: 0 30px 25px 30px;
+      }
+    }
+  }
+
+  span {
+    font-size: 20px;
+  }
+
+  h2 {
+    padding-top: 35px;
+
+    @media screen and (max-width: 800px) {
+      font-size: 65px;
+      padding-top: 100px;
+    }
+
+    @media screen and (max-width: 400px) {
+      font-size: 42px;
+    }
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  .img-item {
+    .img-project {
+      iframe {
+        height: 500px;
+
+        @media screen and (max-width: 800px) {
+          height: 300px;
+        }
+      }
+
+      img,
+      iframe {
+        width: 50vw;
+        margin-bottom: 50px;
+
+        @media screen and (max-width: 1025px) {
+          width: 75vw;
+        }
+      }
+      @media screen and (max-width: 1025px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    @media screen and (max-width: 1025px) {
+      width: 100%;
+    }
+    display: block;
+
+    @media screen and (max-width: 800px) {
+      div.aos-init,
+      div.aos-animate {
+        animation: none !important;
+        transition: none !important;
+        transform: none !important;
+      }
+    }
+  }
+
+  .right {
+    float: right;
+
+    @media screen and (max-width: 1025px) {
+      float: none;
+    }
+  }
+
+  div.btn-tags {
+    width: 30vw;
+    margin-bottom: 50px;
+    span {
+      padding: 10px 20px;
+      margin-right: 20px;
+      background-color: var(--main-color);
+      border-radius: 20px;
+      color: var(--text-color);
+
+      @media screen and (max-width: 1025px) {
+        margin: 10px;
+      }
+    }
+
+    @media screen and (max-width: 1025px) {
+      width: auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 1025px) {
+    margin: 0 2vw;
+  }
+}

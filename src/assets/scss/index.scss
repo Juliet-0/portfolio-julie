@@ -1,0 +1,26 @@
+@import "./header", "./home", "./about", "./work", "./skills", "./contact",
+  "./external-pages", "./footer";
+
+@import "./components/colors", "./components/color-picker", "./components/menu",
+  "./components/buttons";
+
+@import "./fonts/fonts";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+@media screen and (max-width: 1240px) {
+  div.timeline {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .line-decorate {
+    display: none;
+  }
+}

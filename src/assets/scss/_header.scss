@@ -1,0 +1,95 @@
+@import "./components/colors.scss";
+
+header:not(.header-external-pages) {
+  position: fixed;
+  background: var(--background-color);
+  width: 100%;
+  z-index: 2000;
+
+  .box {
+    display: flex;
+    padding: 10px 0;
+    margin: 0 50px;
+
+    @media screen and (max-width: 580px) {
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    span.alt-logo {
+      margin-right: 20px;
+      font-size: 75px;
+      color: var(--main-color);
+
+      @media screen and (max-width: 600px) {
+        font-size: 50px;
+      }
+    }
+
+    nav.menu-burger {
+      width: 50%;
+
+      ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+
+        @media screen and (max-width: 1000px) {
+          width: 100%;
+          padding: 0;
+        }
+
+        a {
+          text-decoration: none;
+
+          li {
+            font-size: 1.7rem;
+
+            @media screen and (max-width: 700px) {
+              font-size: 20px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+
+      @media screen and (max-width: 580px) {
+        position: fixed;
+        z-index: 2000;
+        top: 70px;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        transition: all 0.3s ease;
+        transform: translateX(100%);
+        background: #fff;
+
+        &.expanded {
+          right: 100%;
+
+          ul {
+            justify-content: center;
+            flex-direction: column;
+
+            li {
+              font-size: 60px;
+            }
+          }
+        }
+      }
+    }
+
+    .burger {
+      display: none;
+
+      svg {
+        fill: var(--text-color);
+      }
+
+      @media screen and (max-width: 580px) {
+        display: initial;
+      }
+    }
+  }
+}

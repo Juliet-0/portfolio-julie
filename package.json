@@ -1,0 +1,57 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "prettier": "prettier --write src",
+    "watch": "node-sass --watch ./src/assets/scss/index.scss ./public/css/style.css"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^2.4.21",
+    "@splidejs/vue-splide": "^0.3.5",
+    "aos": "^2.3.4",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-aos": "^1.1.0",
+    "vue-class-component": "^7.2.6",
+    "vue-loader": "^15.9.6",
+    "vue-property-decorator": "^9.1.2",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "icomoon-portfolio": "https://github.com/Joulyet/icomoon-portfolio-julie.git",
+    "node-sass": "^4.12.0",
+    "prettier": "^2.2.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

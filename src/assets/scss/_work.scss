@@ -1,0 +1,158 @@
+#work {
+  margin: 0 15vw;
+  margin-bottom: 5vh;
+  position: relative;
+
+  @media screen and (max-width: 1000px) {
+    margin: 0 3vw;
+  }
+
+  .timeline {
+    width: 1px;
+    height: calc(100% + 76px);
+    left: -43px;
+    top: 0;
+    z-index: 9;
+    position: absolute;
+    background-color: var(--main-color);
+  }
+
+  h2 {
+    margin-bottom: 45px;
+    position: relative;
+
+    span {
+      margin-right: 30px;
+    }
+
+    .line-decorate {
+      position: absolute;
+      width: 50vw;
+      height: 1px;
+      top: 160px;
+      background-color: var(--main-color);
+      left: 390px;
+
+      @media screen and (max-width: 1280px) {
+        width: 30vw;
+      }
+    }
+  }
+
+  div.work-description {
+    font-size: 1.3rem;
+    margin-bottom: 100px;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .slider-container {
+    .slider-elements {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .slider {
+        width: 750px;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+
+        .container-slides {
+          display: flex;
+
+          .img-slider {
+            width: 750px;
+            height: auto;
+          }
+        }
+      }
+
+      .btn-left,
+      .btn-right {
+        outline: none;
+        border: none;
+        cursor: pointer;
+
+        background: none;
+
+        span {
+          font-size: 12rem;
+
+          @media screen and (max-width: 750px) {
+            font-size: 6rem;
+          }
+        }
+      }
+    }
+
+    .container-btn-slider {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem 30vw;
+
+      .btn-slider {
+        width: 25px;
+        height: 25px;
+        border: 2px solid var(--main-color);
+        border-radius: 50%;
+      }
+    }
+
+    .selected {
+      background-color: var(--main-color);
+    }
+
+    #text-category {
+      text-align: center;
+      font-size: 2rem;
+      margin-top: 0 !important;
+    }
+
+    @media screen and (max-width: 1700px) {
+      display: none;
+    }
+  }
+
+  .gallery-work {
+    display: none;
+
+    .work-category {
+      img {
+        height: 20vw;
+        margin: 0 10px;
+
+        @media screen and (max-width: 600px) {
+          height: auto;
+          width: 80%;
+        }
+      }
+
+      p {
+        text-align: center;
+        font-size: 30px;
+      }
+
+      a {
+        display: flex;
+        justify-content: center;
+      }
+
+      @media screen and (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    @media screen and (max-width: 1700px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
