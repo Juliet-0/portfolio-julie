@@ -50,7 +50,7 @@ export default {
         );
         document.documentElement.style.setProperty(
           "--color-bg-home",
-          "#DAFFE9"
+          "linear-gradient(-45deg, #cedf70, #70df7c, #70dfc3, #48fff7)"
         );
       } else {
         // Blue
@@ -62,7 +62,7 @@ export default {
           );
           document.documentElement.style.setProperty(
             "--color-bg-home",
-            "#DFD4FF"
+            "linear-gradient(-45deg, #9100e3, #4e00e3, #00e36d, #e3d700)"
           );
         } else {
           // Red
@@ -77,7 +77,7 @@ export default {
             );
             document.documentElement.style.setProperty(
               "--color-bg-home",
-              "#EBB8BE"
+              "linear-gradient(-45deg, #ff1919, #ea5f5f, #f68659, #f6bb59)"
             );
           } else {
             // Purple
@@ -92,22 +92,22 @@ export default {
               );
               document.documentElement.style.setProperty(
                 "--color-bg-home",
-                "#9CC2FF"
+                "linear-gradient(-45deg, #fb4cfc, #ae4cfc, #7e3ffe, #403ffe)"
               );
             } else {
               // Turquoise
               if (color[0].childNodes[4] === window.event.target) {
                 document.documentElement.style.setProperty(
                   "--main-color",
-                  "#13E2DA"
+                  "#23a6d5"
                 );
                 document.documentElement.style.setProperty(
                   "--color-secondary",
-                  "#07F064"
+                  "#e73c7e"
                 );
                 document.documentElement.style.setProperty(
                   "--color-bg-home",
-                  "#CBDFE6"
+                  "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)"
                 );
               } else {
                 // Orange
@@ -122,7 +122,7 @@ export default {
                   );
                   document.documentElement.style.setProperty(
                     "--color-bg-home",
-                    "#FEDDCB"
+                    "linear-gradient(-45deg, #ff2f00, #ff6b00, #ffaf0d, #ffe50d)"
                   );
                 } else {
                   // Light purple
@@ -137,7 +137,7 @@ export default {
                     );
                     document.documentElement.style.setProperty(
                       "--color-bg-home",
-                      "#D8DCFE"
+                      "linear-gradient(-45deg, #9b73fe, #737dfe, #5d8be8, #5dc2e8)"
                     );
                   } else {
                     // Yellow
@@ -152,10 +152,10 @@ export default {
                       );
                       document.documentElement.style.setProperty(
                         "--color-bg-home",
-                        "#FFDBAD"
+                        "linear-gradient(-45deg, #e3ff4a, #ffd74a, #ffae3d, #ff7b3d)"
                       );
                     } else {
-                      // Main (pink)
+                      // Pink
                       if (color[0].childNodes[8] === window.event.target) {
                         document.documentElement.style.setProperty(
                           "--main-color",
@@ -167,7 +167,7 @@ export default {
                         );
                         document.documentElement.style.setProperty(
                           "--color-bg-home",
-                          "#C988FF"
+                          "linear-gradient(-45deg, #ffb1b1, #ffb1e9, #9241ff, #4541ff)"
                         );
                       }
                     }

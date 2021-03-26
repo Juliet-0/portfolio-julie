@@ -5,9 +5,9 @@
         <span class="alt-i alt-logo"></span>
         <nav class="menu-burger">
           <ul>
-            <a href="#about" v-on:click="activateMenu()"><li>About</li></a>
-            <a href="#work" v-on:click="activateMenu()"><li>Work</li></a>
-            <a href="#skills" v-on:click="activateMenu()"><li>Skills</li></a>
+            <a href="#about" v-on:click="activateMenu()"><li>Profil</li></a>
+            <a href="#work" v-on:click="activateMenu()"><li>Projets</li></a>
+            <a href="#skills" v-on:click="activateMenu()"><li>Outils</li></a>
             <a href="#contact" v-on:click="activateMenu()"><li>Contact</li></a>
           </ul>
         </nav>
@@ -23,11 +23,8 @@
     <main>
       <section id="home">
         <div id="home-text">
-          <span class="line-title-1">Hello, welcome</span>
-          <span class="line-title-2">My name is <b>Juliet Patron</b></span>
-          <span class="line-title-3"
-            >Front-end <b>developer</b> and <b>student</b></span
-          >
+          <span class="line-title-1">Julie Patron</span>
+          <span class="line-title-2">Etudiante en communication</span>
         </div>
       </section>
       <color-picker></color-picker>
@@ -37,7 +34,7 @@
       <skills></skills>
       <contact></contact>
     </main>
-    <footer><p class="info-footer">© Copyright 2021 - Juliet Patron</p></footer>
+    <footer><p class="info-footer">© Copyright 2021 - Julie Patron</p></footer>
   </div>
 </template>
 

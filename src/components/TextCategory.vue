@@ -8,7 +8,7 @@
 export default {
   props: {
     textCategory: {
-      default: "Web development",
+      default: "Audiovisuel",
     },
     index: {
       default: 0,
@@ -23,13 +23,13 @@ export default {
 
       switch (myIndex) {
         case 0:
-          myText = "Web development";
+          myText = "Audiovisuel";
           break;
         case -750:
-          myText = "Web design";
+          myText = "Photographie";
           break;
         case -1500:
-          myText = "Graphic design";
+          myText = "Design graphique";
           break;
       }
       this.$emit("changeText", myText);

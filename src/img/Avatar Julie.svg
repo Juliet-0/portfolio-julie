@@ -1,30 +1,4 @@
-<template>
-  <section id="contact">
-    <div class="timeline"></div>
-    <h2>
-      <span class="alt-i alt-chat"></span>Contact
-      <div class="line-decorate"></div>
-    </h2>
-    <div class="infos">
-      <div class="contact-info">
-        <p>Vous pouvez me retrouver grâce à:</p>
-        <div class="links-contact">
-          <a href="https://twitter.com/JulietPatron" target="_blank"
-            ><span class="alt-i alt-twitter"
-              ><span class="path1"></span><span class="path2"></span></span></a
-          ><a
-            href="https://www.linkedin.com/in/juliet-patron-414417135/"
-            target="_blank"
-            ><span class="alt-i alt-linkedin"
-              ><span class="path1"></span><span class="path2"></span></span></a
-          ><a href="mailto: juliet.patron@hotmail.fr" target="_blank"
-            ><span class="alt-i alt-mail"></span></a
-          >
-        </div>
-        <p>Je vous remercie de votre visite, à bientôt!</p>
-      </div>
-      <div class="image-avatar">
-        <svg class="image-avatar" width="363" height="363" viewBox="0 0 363 363" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="363" height="363" viewBox="0 0 363 363" fill="none" xmlns="http://www.w3.org/2000/svg">
 <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="363" height="363">
 <circle r="178.5" transform="matrix(-1 0 0 1 181.5 181.5)" fill="#6BD9E9"/>
 <circle r="178.5" transform="matrix(-1 0 0 1 181.5 181.5)" stroke="black" stroke-width="6"/>
@@ -80,10 +54,3 @@
 </clipPath>
 </defs>
 </svg>
-
-      </div>
-    </div>
-  </section>
-</template>
-
-<script></script>

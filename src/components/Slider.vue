@@ -14,20 +14,20 @@
         >
           <router-link to="web-development"
             ><img
-              src="../img/fortnite.png"
-              alt="Image to access the web development category"
+              src="../img/audiovisuel.png"
+              alt="Image pour accéder à la catégorie audivisuel"
               class="img-slider"
           /></router-link>
           <router-link to="webdesign"
             ><img
-              src="../img/webdesign.png"
-              alt="Image to access the webdesign category"
+              src="../img/photographie.png"
+              alt="Image pour accéder à la catégorie photographie"
               class="img-slider"
           /></router-link>
           <router-link to="graphic-design"
             ><img
-              src="../img/apple_arcade.png"
-              alt="Image to access the graphic design category"
+              src="../img/design-graphique.png"
+              alt="Image pour accéder à la catégorie design graphique"
               class="img-slider"
           /></router-link>
         </div>
@@ -67,7 +67,7 @@ export default {
     };
   },
   created: function () {
-    this.textCategory = "Web development";
+    this.textCategory = "";
     this.index = 0;
   },
   methods: {

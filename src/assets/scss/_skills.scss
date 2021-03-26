@@ -14,7 +14,7 @@
     top: 0;
     z-index: 9;
     position: absolute;
-    background-color: var(--main-color);
+    background-color: var(--color-secondary);
   }
 
   h2 {
@@ -30,8 +30,8 @@
       width: 50vw;
       height: 1px;
       top: 160px;
-      background-color: var(--main-color);
-      left: 390px;
+      background-color: var(--color-secondary);
+     left: 400px;
 
       @media screen and (max-width: 1280px) {
         width: 30vw;
@@ -99,52 +99,36 @@
             margin-left: 5px;
             background-color: var(--main-color);
 
-            &.html {
+            &.word {
               width: 90%;
             }
 
-            &.css {
+            &.premiere {
               width: 90%;
             }
 
-            &.javascript {
+            &.indesign {
               width: 70%;
             }
 
-            &.vuejs {
+            &.dev {
               width: 65%;
             }
 
-            &.sass {
+            &.video-products {
               width: 80%;
             }
 
-            &.php {
-              width: 50%;
-            }
-
-            &.yarn {
+            &.articles {
               width: 85%;
             }
 
-            &.davinci {
+            &.resolve {
               width: 65%;
-            }
-
-            &.figma {
-              width: 85%;
             }
 
             &.photoshop {
               width: 70%;
-            }
-
-            &.git {
-              width: 70%;
-            }
-
-            &.blender {
-              width: 50%;
             }
 
             &.progress-active {
@@ -175,7 +159,7 @@
 
       p,
       span {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
         margin: 0 10px;
       }
 

@@ -1,14 +1,10 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 :root {
-  --main-color: #ff60f4;
-  --color-secondary: #9241ff;
-  --color-bg-home: #f8f0fe;
-  --gradient-color: linear-gradient(
-    to left,
-    var(--main-color),
-    var(--color-secondary)
-  );
+  --main-color: #23a6d5;
+  --color-secondary: #e73c7e;
+  --color-bg-home: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   --background-color: white;
   --text-color: black;
   --boxShadow: 0px 0px 15px 2px rgba(50, 68, 228, 0); }
@@ -21,7 +17,7 @@ p,
 b,
 .alt-i,
 section {
-  transition: color 1s ease, background-color 1s ease, border-color 1s ease; }
+  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
   span span::before,
   div span::before,
   h2 span::before,
@@ -83,7 +79,7 @@ header:not(.header-external-pages) {
           text-decoration: none; }
           header:not(.header-external-pages) .box nav.menu-burger ul a li {
             font-size: 1.7rem; }
-            @media screen and (max-width: 700px) {
+            @media screen and (max-width: 780px) {
               header:not(.header-external-pages) .box nav.menu-burger ul a li {
                 font-size: 20px;
                 font-weight: 500; } }
@@ -114,14 +110,9 @@ header:not(.header-external-pages) {
           display: initial; } }
 
 :root {
-  --main-color: #ff60f4;
-  --color-secondary: #9241ff;
-  --color-bg-home: #f8f0fe;
-  --gradient-color: linear-gradient(
-    to left,
-    var(--main-color),
-    var(--color-secondary)
-  );
+  --main-color: #23a6d5;
+  --color-secondary: #e73c7e;
+  --color-bg-home: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   --background-color: white;
   --text-color: black;
   --boxShadow: 0px 0px 15px 2px rgba(50, 68, 228, 0); }
@@ -134,7 +125,7 @@ p,
 b,
 .alt-i,
 section {
-  transition: color 1s ease, background-color 1s ease, border-color 1s ease; }
+  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
   span span::before,
   div span::before,
   h2 span::before,
@@ -165,13 +156,21 @@ ellipse.round-avatar {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-bg-home) !important;
-  min-height: 60vh;
-  padding: 11.125rem;
-  animation: 2s linear changeOpacity; }
+  background: var(--color-bg-home);
+  height: 100vh;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite; }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
   @media screen and (max-width: 800px) {
     #home {
-      min-height: 30vh;
+      max-height: 30vh;
       padding: 11.125rem 0; } }
 
 @keyframes changeOpacity {
@@ -184,17 +183,13 @@ ellipse.round-avatar {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 4px solid;
-    border-image-slice: 1;
     margin: auto;
-    border-width: 5px;
-    border-image-source: var(--gradient-color);
     padding: 20px 40px; }
-    #home div#home-text .line-title-1, #home div#home-text .line-title-2, #home div#home-text .line-title-3 {
-      white-space: nowrap;
-      text-shadow: 1px 1px 2px black; }
+    #home div#home-text .line-title-1, #home div#home-text .line-title-2 {
+      white-space: nowrap; }
     #home div#home-text .line-title-1 {
-      font-size: 120px; }
+      font-size: 120px;
+      text-shadow: 1px 1px 2px black; }
       @media screen and (max-width: 1110px) {
         #home div#home-text .line-title-1 {
           font-size: 80px; } }
@@ -208,7 +203,9 @@ ellipse.round-avatar {
         #home div#home-text .line-title-1 {
           font-size: 30px; } }
     #home div#home-text .line-title-2 {
-      font-size: 60px; }
+      font-size: 60px;
+      -webkit-text-stroke: 2px var(--text-color);
+      -webkit-text-fill-color: transparent; }
       @media screen and (max-width: 1110px) {
         #home div#home-text .line-title-2 {
           font-size: 40px; } }
@@ -221,28 +218,11 @@ ellipse.round-avatar {
       @media screen and (max-width: 400px) {
         #home div#home-text .line-title-2 {
           font-size: 15px; } }
-    #home div#home-text .line-title-3 {
-      line-height: 2em;
-      font-size: 30px; }
-      @media screen and (max-width: 750px) {
-        #home div#home-text .line-title-3 {
-          font-size: 25px; } }
-      @media screen and (max-width: 500px) {
-        #home div#home-text .line-title-3 {
-          font-size: 21px; } }
-      @media screen and (max-width: 400px) {
-        #home div#home-text .line-title-3 {
-          font-size: 12px; } }
 
 :root {
-  --main-color: #ff60f4;
-  --color-secondary: #9241ff;
-  --color-bg-home: #f8f0fe;
-  --gradient-color: linear-gradient(
-    to left,
-    var(--main-color),
-    var(--color-secondary)
-  );
+  --main-color: #23a6d5;
+  --color-secondary: #e73c7e;
+  --color-bg-home: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   --background-color: white;
   --text-color: black;
   --boxShadow: 0px 0px 15px 2px rgba(50, 68, 228, 0); }
@@ -255,7 +235,7 @@ p,
 b,
 .alt-i,
 section {
-  transition: color 1s ease, background-color 1s ease, border-color 1s ease; }
+  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
   span span::before,
   div span::before,
   h2 span::before,
@@ -296,17 +276,17 @@ ellipse.round-avatar {
     top: -400px;
     z-index: 9;
     position: absolute;
-    background-color: var(--main-color); }
+    background-color: var(--color-secondary); }
     #about .timeline .round-timeline {
       position: absolute;
       background-color: var(--color-bg-home);
       left: -6px;
-      top: 0;
+      top: -11px;
       z-index: 10;
       width: 9px;
       height: 9px;
       border-radius: 50%;
-      border: 2px solid var(--main-color); }
+      border: 2px solid var(--color-secondary); }
   #about h2#title-about:not(span) {
     position: relative; }
     #about h2#title-about:not(span):not(span) {
@@ -320,8 +300,8 @@ ellipse.round-avatar {
       width: 50vw;
       height: 1px;
       top: 160px;
-      background-color: var(--main-color);
-      left: 390px; }
+      background-color: var(--color-secondary);
+      left: 350px; }
       @media screen and (max-width: 1280px) {
         #about h2#title-about:not(span) .line-decorate {
           width: 35vw; } }
@@ -434,7 +414,7 @@ ellipse.round-avatar {
     top: 0;
     z-index: 9;
     position: absolute;
-    background-color: var(--main-color); }
+    background-color: var(--color-secondary); }
   #work h2 {
     margin-bottom: 45px;
     position: relative; }
@@ -442,11 +422,11 @@ ellipse.round-avatar {
       margin-right: 30px; }
     #work h2 .line-decorate {
       position: absolute;
-      width: 50vw;
+      width: 48vw;
       height: 1px;
       top: 160px;
-      background-color: var(--main-color);
-      left: 390px; }
+      background-color: var(--color-secondary);
+      left: 450px; }
       @media screen and (max-width: 1280px) {
         #work h2 .line-decorate {
           width: 30vw; } }
@@ -542,7 +522,7 @@ ellipse.round-avatar {
     top: 0;
     z-index: 9;
     position: absolute;
-    background-color: var(--main-color); }
+    background-color: var(--color-secondary); }
   #skills h2 {
     margin-bottom: 45px;
     position: relative; }
@@ -553,8 +533,8 @@ ellipse.round-avatar {
       width: 50vw;
       height: 1px;
       top: 160px;
-      background-color: var(--main-color);
-      left: 390px; }
+      background-color: var(--color-secondary);
+      left: 400px; }
       @media screen and (max-width: 1280px) {
         #skills h2 .line-decorate {
           width: 30vw; } }
@@ -602,30 +582,22 @@ ellipse.round-avatar {
           border-radius: 10px;
           margin-left: 5px;
           background-color: var(--main-color); }
-          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.html {
+          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.word {
             width: 90%; }
-          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.css {
+          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.premiere {
             width: 90%; }
-          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.javascript {
+          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.indesign {
             width: 70%; }
-          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.vuejs {
+          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.dev {
             width: 65%; }
-          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.sass {
+          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.video-products {
             width: 80%; }
-          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.php {
-            width: 50%; }
-          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.yarn {
+          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.articles {
             width: 85%; }
-          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.davinci {
+          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.resolve {
             width: 65%; }
-          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.figma {
-            width: 85%; }
           #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.photoshop {
             width: 70%; }
-          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.git {
-            width: 70%; }
-          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.blender {
-            width: 50%; }
           #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.progress-active {
             transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1); }
   #skills div.soft-skills h3 {
@@ -642,7 +614,7 @@ ellipse.round-avatar {
         flex-wrap: wrap; } }
     #skills div.soft-skills div.soft-elements p,
     #skills div.soft-skills div.soft-elements span {
-      font-size: 1.4rem;
+      font-size: 1.7rem;
       margin: 0 10px; }
     #skills div.soft-skills div.soft-elements span {
       color: var(--main-color); }
@@ -661,7 +633,7 @@ ellipse.round-avatar {
     top: 0;
     z-index: 9;
     position: absolute;
-    background-color: var(--main-color); }
+    background-color: var(--color-secondary); }
   #contact h2 {
     position: relative; }
     #contact h2 span.alt-chat {
@@ -671,7 +643,7 @@ ellipse.round-avatar {
       width: 40vw;
       height: 1px;
       top: 160px;
-      background-color: var(--main-color);
+      background-color: var(--color-secondary);
       left: 500px; }
       @media screen and (max-width: 1100px) {
         #contact h2 .line-decorate {
@@ -710,14 +682,9 @@ ellipse.round-avatar {
           display: none; } }
 
 :root {
-  --main-color: #ff60f4;
-  --color-secondary: #9241ff;
-  --color-bg-home: #f8f0fe;
-  --gradient-color: linear-gradient(
-    to left,
-    var(--main-color),
-    var(--color-secondary)
-  );
+  --main-color: #23a6d5;
+  --color-secondary: #e73c7e;
+  --color-bg-home: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   --background-color: white;
   --text-color: black;
   --boxShadow: 0px 0px 15px 2px rgba(50, 68, 228, 0); }
@@ -730,7 +697,7 @@ p,
 b,
 .alt-i,
 section {
-  transition: color 1s ease, background-color 1s ease, border-color 1s ease; }
+  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
   span span::before,
   div span::before,
   h2 span::before,
@@ -932,14 +899,9 @@ footer {
     font-size: 1.3rem; }
 
 :root {
-  --main-color: #ff60f4;
-  --color-secondary: #9241ff;
-  --color-bg-home: #f8f0fe;
-  --gradient-color: linear-gradient(
-    to left,
-    var(--main-color),
-    var(--color-secondary)
-  );
+  --main-color: #23a6d5;
+  --color-secondary: #e73c7e;
+  --color-bg-home: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   --background-color: white;
   --text-color: black;
   --boxShadow: 0px 0px 15px 2px rgba(50, 68, 228, 0); }
@@ -952,7 +914,7 @@ p,
 b,
 .alt-i,
 section {
-  transition: color 1s ease, background-color 1s ease, border-color 1s ease; }
+  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
   span span::before,
   div span::before,
   h2 span::before,
@@ -987,6 +949,9 @@ ellipse.round-avatar {
   @media screen and (max-width: 1000px) {
     .tool_container {
       display: none; } }
+  @media screen and (max-width: 1100px) {
+    .tool_container {
+      top: 230px; } }
   .tool_container p {
     text-align: center;
     font-size: 1.3rem; }
@@ -1093,8 +1058,8 @@ ellipse.round-avatar {
 
 @font-face {
   font-family: "icomoon";
-  src: url("fonts/icomoon.eot?yfl4ij");
-  src: url("fonts/icomoon.eot?yfl4ij#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?yfl4ij") format("truetype"), url("fonts/icomoon.woff?yfl4ij") format("woff"), url("fonts/icomoon.svg?yfl4ij#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?gqcsr7");
+  src: url("fonts/icomoon.eot?gqcsr7#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?gqcsr7") format("truetype"), url("fonts/icomoon.woff?gqcsr7") format("woff"), url("fonts/icomoon.svg?gqcsr7#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -1112,8 +1077,11 @@ ellipse.round-avatar {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.alt-moon:before {
-  content: ""; }
+.alt-photo:before {
+  content: ""; }
+
+.alt-cinema:before {
+  content: ""; }
 
 .alt-sun:before {
   content: ""; }
@@ -1237,6 +1205,9 @@ ellipse.round-avatar {
   content: "";
   color: #70df7c; }
 
+.alt-moon:before {
+  content: ""; }
+
 .alt-chevron-left:before {
   content: ""; }
 
@@ -1244,7 +1215,7 @@ ellipse.round-avatar {
   content: ""; }
 
 body {
-  font-family: "Cabin", sans-serif; }
+  font-family: "Lato", sans-serif; }
 
 nav ul {
   font-weight: bold;
@@ -1256,7 +1227,6 @@ b {
 h2 {
   -webkit-text-stroke: 2px var(--text-color);
   -webkit-text-fill-color: transparent;
-  font-family: "Lato";
   font-size: 91px;
   padding-top: 100px; }
   h2.title-pages {

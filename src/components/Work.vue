@@ -3,41 +3,41 @@
     <div class="timeline"></div>
 
     <h2 data-aos="fade-right" data-aos-delay="100">
-      <span class="alt-i alt-computer"></span>Work
+      <span class="alt-i alt-computer"></span>Projets
       <div class="line-decorate"></div>
     </h2>
     <div data-aos="fade-up" data-aos-delay="800" class="work-description">
       <p>
-        I mainly work on development projects but sometimes I also work on more
-        artistic projects, such as computer graphics, motion design or 3D.
+       Lors de différents projets professionnels et perfonnels, j’ai eu l’opportunité de travail dans différents domaines, que ce soit en audiovisuel, en photographie
+ et en design graphique.
       </p>
-      <span>Find out more:</span>
+      <span>Pour en savoir plus:</span>
     </div>
     <slider></slider>
     <div class="gallery-work">
       <div class="work-category">
         <router-link to="web-development"
           ><img
-            src="../img/fortnite.png"
-            alt="Image to access the web development category"
+            src="../img/audiovisuel.png"
+            alt="Image pour accéder à la catégorie audiovisuel"
         /></router-link>
-        <p>Web development</p>
+        <p>Audiovisuel</p>
       </div>
       <div class="work-category">
         <router-link to="webdesign">
           <img
-            src="../img/webdesign.png"
-            alt="Image to access the webdesign category"
+            src="../img/photographie.png"
+            alt="Image pour accéder à la catégorie photographie"
         /></router-link>
-        <p>Web design</p>
+        <p>Photographie</p>
       </div>
       <div class="work-category">
         <router-link to="graphic-design">
           <img
-            src="../img/apple_arcade.png"
-            alt="Image to access the graphic design category"
+            src="../img/design-graphique.png"
+            alt="Image pour accéder à la catégorie design graphique"
         /></router-link>
-        <p>Graphic design</p>
+        <p>Design graphique</p>
       </div>
     </div>
   </section>

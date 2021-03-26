@@ -2,18 +2,18 @@
   <section id="about">
     <div class="timeline"><div class="round-timeline"></div></div>
     <h2 data-aos="fade-right" data-aos-delay="100" id="title-about">
-      <span class="alt-i alt-user"></span>About
+      <span class="alt-i alt-user"></span>Profil
       <div class="line-decorate"></div>
     </h2>
     <div class="box-about">
       <div class="info-about">
         <div class="info-name" data-aos="fade-right" data-aos-delay="800">
-          <p>FULL NAME</p>
-          <b>Juliet Patron</b>
+          <p>Nom complet</p>
+          <b>Julie Patron</b>
         </div>
         <div class="info-mail" data-aos="fade-right" data-aos-delay="800">
-          <p>MAIL</p>
-          <b>juliet.patron@hotmail.fr</b>
+          <p>Mail</p>
+          <b>julie.patron@hotmail.fr</b>
         </div>
 
         <div class="box-symbols" data-aos="fade-up" data-aos-delay="800">
@@ -29,17 +29,14 @@
       </div>
       <div class="text-description" data-aos="fade-down" data-aos-delay="800">
         <span
-          >I'm <b>Juliet Patron</b> and I'm a 2nd year student in Multimedia and
-          Internet in Laval, France.</span
-        ><br />
-        <span
-          >This second year, I'm also front-end developer in a work-study
-          program at <b>Altays</b>, a company specialized in human resources
-          software development.</span
-        ><br />
+          >Je m’appelle <b>Julie Patron</b> et je suis en 2ème année de DUT
+          Information et Communication à l’IUT de La Roche sur Yon.</span
+        >
         <span>
-          Today, I wish to continue my studies and improve myself more and more
-          in web development!</span
+          Passionnée par l’audiovisuel et le multimédia, je souhaiterai
+          poursuivre ma formation dans ces secteurs d’activité, notamment en
+          approfondissant mes connaissances dans le domaine de la technique du
+          <b>son</b> et de <b>l’image</b>.</span
         >
         <div>
           <a
@@ -54,20 +51,20 @@
       </div>
     </div>
     <div class="box-interests">
-      <h3 class="title-interests">Interests</h3>
+      <h3 class="title-interests">Centres d'intérêts</h3>
       <div class="icons-interests">
+        <span
+          class="alt-i alt-cinema"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        ></span>
         <span
           class="alt-i alt-game-controller"
           data-aos="fade-up"
           data-aos-delay="200"
         ></span>
         <span
-          class="alt-i alt-coffee"
-          data-aos="fade-up"
-          data-aos-delay="400"
-        ></span>
-        <span
-          class="alt-i alt-web-development"
+          class="alt-i alt-photo"
           data-aos="fade-up"
           data-aos-delay="600"
         ></span>
