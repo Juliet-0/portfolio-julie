@@ -14,8 +14,12 @@
     align-items: center;
   }
 
-  img {
+  svg {
     width: 60px;
+
+    path {
+      fill: var(--text-color);
+    }
   }
 
   @media screen and (max-width: 1024px) {

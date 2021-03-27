@@ -10,114 +10,89 @@
     </header>
     <main>
       <section id="graphic-design">
-        <h2 class="title-pages">Graphic design</h2>
+        <h2 class="title-pages">Design graphique</h2>
         <div class="description">
-          <p>Here you can find some projects in graphic design!</p>
+          <p>
+            Vous trouverez ici quelques projets que j'ai réalisé en design
+            graphique!
+          </p>
         </div>
         <div class="container-project">
-          <h3>Data visualisation</h3>
+          <h3>Ampoules Alumni</h3>
           <p class="project-description">
-            Creation of a data visualization that represents all the important
-            information during the launch of Apple Arcade. The data is
-            represented as a controller to represent the content of this service
-            (video games). Each icon represents a piece of information about
-            this subscription offered by Apple.
+            Réalisation d'une infographie dans le cadre d'une commandes de l'IUT
+            pour les évènements Alumni pour l'ensembe du campus. Pour cette
+            affiche, j'ai essayé de faire un jeu de mots avec Allumer/Alumni,
+            les Alumni étant symbole de connaissances pour les étudiants
+            d'aujourd'hui. Pour cela, j'ai créé différents modèles, avec des
+            couleurs différentes.
           </p>
           <div class="btn-tags">
-            <span>Affinity Designer</span>
+            <span>Indesign</span>
+            <span>Adobe Color</span>
+            <span>Illustration</span>
           </div>
           <div class="img-item">
             <div class="img-project" data-aos="fade-left" data-aos-delay="500">
-              <img
-                src="../img/apple_arcade.png"
-                alt="Image showing the final rendering of my data visualization on Apple Arcade"
-              />
-            </div>
-          </div>
-        </div>
-        <div class="container-project">
-          <h3>2D animation - Thunder</h3>
-          <p class="project-description">
-            Production of a 2D motion design with Blender software. For this
-            exercise, we had to animate a word of our choice. For this, I
-            decided to work on the word "éclair" (thunder) by animating the
-            letter i in the form of thunder. A work on the light, the objects,
-            the animation was realized to arrive at this result.
-          </p>
-          <div class="btn-tags">
-            <span>Blender</span>
-          </div>
-          <div class="img-item">
-            <div class="img-project" data-aos="fade-left" data-aos-delay="500">
-              <iframe
-                src="https://www.youtube.com/embed/XIPjQMGF3ds"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+              <img src="../img/alumni.png" />
             </div>
           </div>
         </div>
         <div class="container-project">
-          <h3>The Kiss - Gustav Klimt</h3>
+          <h3>Affiche A3 Patrimoine</h3>
           <p class="project-description">
-            Production of a 2D motion design presenting the painting The Kiss by
-            Gustav Klimt. This animation allows to present the work and all its
-            characteristics thanks to animations, illustrations and strong
-            visual symbols.
+            Création d'une affiche sir les journées européennes du patrimoine
+            dans le cadre des cours de PAO en DUT infocom. Réalisation sous
+            Adobe Photoshop et Indesign.
           </p>
           <div class="btn-tags">
-            <span>Blender</span>
-            <span>Adobe Audition</span>
+            <span>Indesign</span>
+            <span>Photoshop</span>
+            <span>Adobe Color</span>
+            <span>Illustration</span>
           </div>
           <div class="img-item">
             <div class="img-project" data-aos="fade-left" data-aos-delay="500">
-              <iframe
-                src="https://www.youtube.com/embed/IOd-9BCr3xU"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+              <img src="../img/Affiche A3 version prof.png" />
             </div>
           </div>
         </div>
         <div class="container-project">
-          <h3>Video games magazine</h3>
+          <h3>Affiche tous unis</h3>
           <p class="project-description">
-            Edition of a 4 pages magazine made on Indesign representing an
-            article on the representation of women in video games. Very visual
-            representation with female characters of video games, attractive
-            colors in the respect of the rules of editions of a magazine.
+            Réalisation d'une affiche contre les discriminations pour
+            l'Université de Nantes. Dans le cadre de la réalisation de cette
+            affiche, j'ai décidé d'intégrer une prise de vue photographique et
+            de créer un jeu de mots avc Université de Nantes (UN) et le mot
+            "unis".
           </p>
           <div class="btn-tags">
-            <span>Adobe Indesign</span>
-          </div>
-          <div class="img-item">
-            <div class="img-project" data-aos="fade-right" data-aos-delay="500">
-              <img
-                class="right"
-                src="../img/magazine.png"
-                alt="Cover page of the magazine"
-              />
-            </div>
+            <span>Indesign</span>
+            <span>Photoshop</span>
+            <span>Adobe Color</span>
+            <span>Illustration</span>
+            <span>Photographie</span>
           </div>
           <div class="img-item">
             <div class="img-project" data-aos="fade-left" data-aos-delay="500">
-              <img src="../img/magazine1.png" alt="Left page of the article" />
+              <img src="../img/discrimination.png" />
             </div>
           </div>
-          <div class="img-item">
-            <div class="img-project" data-aos="fade-right" data-aos-delay="500">
-              <img
-                class="right"
-                src="../img/magazine2.png"
-                alt="Right page of the article"
-              />
-            </div>
+        </div>
+        <div class="container-project">
+          <h3>Affiche Evenlynn</h3>
+          <p class="project-description">
+            Réalisation d'une bannière Youtube fictive dans le cadre d'un
+            entraînement personnel sur le logiciel Photoshop.
+          </p>
+          <div class="btn-tags">
+            <span>Photoshop</span>
+            <span>Bannière</span>
+            <span>Illustration</span>
           </div>
           <div class="img-item">
             <div class="img-project" data-aos="fade-left" data-aos-delay="500">
-              <img src="../img/magazine3.png" alt="Advertising" />
+              <img src="../img/evie.png" />
             </div>
           </div>
         </div>

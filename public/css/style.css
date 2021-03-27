@@ -663,13 +663,14 @@ ellipse.round-avatar {
           font-size: 30px; } }
     #contact .infos .contact-info .links-contact {
       display: flex;
-      justify-content: space-between;
-      width: 400px; }
+      justify-content: center;
+      width: 100%; }
       @media screen and (max-width: 700px) {
         #contact .infos .contact-info .links-contact {
           width: auto; } }
       #contact .infos .contact-info .links-contact a {
-        text-decoration: none; }
+        text-decoration: none;
+        margin: 0 20px; }
       #contact .infos .contact-info .links-contact span {
         font-size: 50px; }
     #contact .infos .image-avatar {
@@ -755,137 +756,138 @@ header.header-external-pages {
     header.header-external-pages {
       padding: 20px 10px; } }
 
-#web-development,
-#web-design,
+#audiovisual,
+#photography,
 #graphic-design {
   margin: 0 15vw;
   height: auto; }
-  #web-development p,
-  #web-design p,
+  #audiovisual p,
+  #photography p,
   #graphic-design p {
     font-size: 25px; }
-    #web-development p.project-description,
-    #web-design p.project-description,
+    #audiovisual p.project-description,
+    #photography p.project-description,
     #graphic-design p.project-description {
       width: 50vw;
       margin-bottom: 25px; }
       @media screen and (max-width: 1025px) {
-        #web-development p.project-description,
-        #web-design p.project-description,
+        #audiovisual p.project-description,
+        #photography p.project-description,
         #graphic-design p.project-description {
           width: auto;
           margin: 0 30px 25px 30px; } }
-  #web-development span,
-  #web-design span,
+  #audiovisual span,
+  #photography span,
   #graphic-design span {
     font-size: 20px; }
-  #web-development h2,
-  #web-design h2,
+  #audiovisual h2,
+  #photography h2,
   #graphic-design h2 {
     padding-top: 35px; }
     @media screen and (max-width: 800px) {
-      #web-development h2,
-      #web-design h2,
+      #audiovisual h2,
+      #photography h2,
       #graphic-design h2 {
         font-size: 65px;
         padding-top: 100px; } }
     @media screen and (max-width: 400px) {
-      #web-development h2,
-      #web-design h2,
+      #audiovisual h2,
+      #photography h2,
       #graphic-design h2 {
         font-size: 42px; } }
-  #web-development h3,
-  #web-design h3,
+  #audiovisual h3,
+  #photography h3,
   #graphic-design h3 {
     font-size: 40px; }
-  #web-development .img-item,
-  #web-design .img-item,
+  #audiovisual .img-item,
+  #photography .img-item,
   #graphic-design .img-item {
     display: block; }
-    #web-development .img-item .img-project iframe,
-    #web-design .img-item .img-project iframe,
+    #audiovisual .img-item .img-project iframe,
+    #photography .img-item .img-project iframe,
     #graphic-design .img-item .img-project iframe {
       height: 500px; }
       @media screen and (max-width: 800px) {
-        #web-development .img-item .img-project iframe,
-        #web-design .img-item .img-project iframe,
+        #audiovisual .img-item .img-project iframe,
+        #photography .img-item .img-project iframe,
         #graphic-design .img-item .img-project iframe {
           height: 300px; } }
-    #web-development .img-item .img-project img,
-    #web-development .img-item .img-project iframe,
-    #web-design .img-item .img-project img,
-    #web-design .img-item .img-project iframe,
+    #audiovisual .img-item .img-project img,
+    #audiovisual .img-item .img-project iframe,
+    #photography .img-item .img-project img,
+    #photography .img-item .img-project iframe,
     #graphic-design .img-item .img-project img,
     #graphic-design .img-item .img-project iframe {
       width: 50vw;
       margin-bottom: 50px; }
       @media screen and (max-width: 1025px) {
-        #web-development .img-item .img-project img,
-        #web-development .img-item .img-project iframe,
-        #web-design .img-item .img-project img,
-        #web-design .img-item .img-project iframe,
+        #audiovisual .img-item .img-project img,
+        #audiovisual .img-item .img-project iframe,
+        #photography .img-item .img-project img,
+        #photography .img-item .img-project iframe,
         #graphic-design .img-item .img-project img,
         #graphic-design .img-item .img-project iframe {
           width: 75vw; } }
     @media screen and (max-width: 1025px) {
-      #web-development .img-item .img-project,
-      #web-design .img-item .img-project,
+      #audiovisual .img-item .img-project,
+      #photography .img-item .img-project,
       #graphic-design .img-item .img-project {
         width: 100%;
         display: flex;
         justify-content: center; } }
     @media screen and (max-width: 1025px) {
-      #web-development .img-item,
-      #web-design .img-item,
+      #audiovisual .img-item,
+      #photography .img-item,
       #graphic-design .img-item {
         width: 100%; } }
     @media screen and (max-width: 800px) {
-      #web-development .img-item div.aos-init,
-      #web-development .img-item div.aos-animate,
-      #web-design .img-item div.aos-init,
-      #web-design .img-item div.aos-animate,
+      #audiovisual .img-item div.aos-init,
+      #audiovisual .img-item div.aos-animate,
+      #photography .img-item div.aos-init,
+      #photography .img-item div.aos-animate,
       #graphic-design .img-item div.aos-init,
       #graphic-design .img-item div.aos-animate {
         animation: none !important;
         transition: none !important;
         transform: none !important; } }
-  #web-development .right,
-  #web-design .right,
+  #audiovisual .right,
+  #photography .right,
   #graphic-design .right {
     float: right; }
     @media screen and (max-width: 1025px) {
-      #web-development .right,
-      #web-design .right,
+      #audiovisual .right,
+      #photography .right,
       #graphic-design .right {
         float: none; } }
-  #web-development div.btn-tags,
-  #web-design div.btn-tags,
+  #audiovisual div.btn-tags,
+  #photography div.btn-tags,
   #graphic-design div.btn-tags {
     width: 30vw;
     margin-bottom: 50px; }
-    #web-development div.btn-tags span,
-    #web-design div.btn-tags span,
+    #audiovisual div.btn-tags span,
+    #photography div.btn-tags span,
     #graphic-design div.btn-tags span {
       padding: 10px 20px;
       margin-right: 20px;
       background-color: var(--main-color);
       border-radius: 20px;
-      color: var(--text-color); }
+      color: var(--text-color);
+      white-space: nowrap; }
       @media screen and (max-width: 1025px) {
-        #web-development div.btn-tags span,
-        #web-design div.btn-tags span,
+        #audiovisual div.btn-tags span,
+        #photography div.btn-tags span,
         #graphic-design div.btn-tags span {
           margin: 10px; } }
     @media screen and (max-width: 1025px) {
-      #web-development div.btn-tags,
-      #web-design div.btn-tags,
+      #audiovisual div.btn-tags,
+      #photography div.btn-tags,
       #graphic-design div.btn-tags {
         width: auto;
         display: flex;
         flex-wrap: wrap; } }
   @media screen and (max-width: 1025px) {
-    #web-development,
-    #web-design,
+    #audiovisual,
+    #photography,
     #graphic-design {
       margin: 0 2vw; } }
 
@@ -1050,8 +1052,10 @@ ellipse.round-avatar {
     display: flex;
     justify-content: center;
     align-items: center; }
-  .return-container img {
+  .return-container svg {
     width: 60px; }
+    .return-container svg path {
+      fill: var(--text-color); }
   @media screen and (max-width: 1024px) {
     .return-container {
       display: none; } }

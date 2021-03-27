@@ -12,13 +12,13 @@
             transition: `${transition}`,
           }"
         >
-          <router-link to="web-development"
+          <router-link to="audiovisuel"
             ><img
               src="../img/audiovisuel.png"
               alt="Image pour accéder à la catégorie audivisuel"
               class="img-slider"
           /></router-link>
-          <router-link to="webdesign"
+          <router-link to="photographie"
             ><img
               src="../img/photographie.png"
               alt="Image pour accéder à la catégorie photographie"

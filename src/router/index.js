@@ -2,8 +2,8 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import GraphicDesign from "../views/GraphicDesign.vue";
-import Webdevelopment from "../views/Webdevelopment.vue";
-import Webdesign from "../views/Webdesign.vue";
+import Audiovisuel from "../views/Audiovisuel.vue";
+import Photographie from "../views/Photographie.vue";
 
 Vue.use(VueRouter);
 
@@ -19,14 +19,14 @@ const routes = [
     component: GraphicDesign,
   },
   {
-    path: "/web-development",
-    name: "web-development",
-    component: Webdevelopment,
+    path: "/audiovisuel",
+    name: "audiovisuel",
+    component: Audiovisuel,
   },
   {
-    path: "/webdesign",
-    name: "webdesign",
-    component: Webdesign,
+    path: "/photographie",
+    name: "photographie",
+    component: Photographie,
   },
 ];
 

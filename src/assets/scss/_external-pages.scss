@@ -43,8 +43,8 @@ header.header-external-pages {
   }
 }
 
-#web-development,
-#web-design,
+#audiovisual,
+#photography,
 #graphic-design {
   margin: 0 15vw;
 
@@ -142,6 +142,7 @@ header.header-external-pages {
       background-color: var(--main-color);
       border-radius: 20px;
       color: var(--text-color);
+      white-space: nowrap;
 
       @media screen and (max-width: 1025px) {
         margin: 10px;

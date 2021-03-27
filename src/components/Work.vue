@@ -8,15 +8,16 @@
     </h2>
     <div data-aos="fade-up" data-aos-delay="800" class="work-description">
       <p>
-       Lors de différents projets professionnels et perfonnels, j’ai eu l’opportunité de travail dans différents domaines, que ce soit en audiovisuel, en photographie
- et en design graphique.
+        Lors de différents projets professionnels et perfonnels, j’ai eu
+        l’opportunité de travail dans différents domaines, que ce soit en
+        audiovisuel, en photographie et en design graphique.
       </p>
       <span>Pour en savoir plus:</span>
     </div>
     <slider></slider>
     <div class="gallery-work">
       <div class="work-category">
-        <router-link to="web-development"
+        <router-link to="audiovisuel"
           ><img
             src="../img/audiovisuel.png"
             alt="Image pour accéder à la catégorie audiovisuel"
@@ -24,7 +25,7 @@
         <p>Audiovisuel</p>
       </div>
       <div class="work-category">
-        <router-link to="webdesign">
+        <router-link to="photographie">
           <img
             src="../img/photographie.png"
             alt="Image pour accéder à la catégorie photographie"

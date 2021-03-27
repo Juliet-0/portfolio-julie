@@ -13,7 +13,7 @@
         </div>
         <div class="info-mail" data-aos="fade-right" data-aos-delay="800">
           <p>Mail</p>
-          <b>julie.patron@hotmail.fr</b>
+          <b>juliepatron55@gmail.com</b>
         </div>
 
         <div class="box-symbols" data-aos="fade-up" data-aos-delay="800">
@@ -40,7 +40,7 @@
         >
         <div>
           <a
-            href="https://drive.google.com/file/d/1yR7ZTzlPKvJvEaMvLMObm1lbNc6j3cSK/view?usp=sharing"
+            href="https://drive.google.com/file/d/15O-IYdLmCkuhqTj5v2k7nLFI4D1HlzMn/view?usp=sharing"
             target="_blank"
           >
             <div class="button-cv">
