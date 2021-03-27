@@ -10,7 +10,7 @@
         <p>Vous pouvez me retrouver grâce à:</p>
         <div class="links-contact">
           <a
-            href="https://www.linkedin.com/in/juliet-patron-414417135/"
+            href="https://www.linkedin.com/in/julie-patron-99113b1a0/"
             target="_blank"
             ><span class="alt-i alt-linkedin"
               ><span class="path1"></span><span class="path2"></span></span></a
