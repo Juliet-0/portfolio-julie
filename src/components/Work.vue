@@ -8,7 +8,7 @@
     </h2>
     <div data-aos="fade-up" data-aos-delay="800" class="work-description">
       <p>
-        Lors de différents projets professionnels et perfonnels, j’ai eu
+        Lors de différents projets professionnels et personnels, j’ai eu
         l’opportunité de travail dans différents domaines, que ce soit en
         audiovisuel, en photographie et en design graphique.
       </p>

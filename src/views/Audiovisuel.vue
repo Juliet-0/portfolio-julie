@@ -17,6 +17,33 @@
           </p>
         </div>
         <div class="container-project">
+          <h3>Congrès HCV 2021</h3>
+          <p class="project-description">
+            Réalisation d'une vidéo teaser dans le cadre de mon stage au CHU de
+            Nantes pour le congrès Horizons Cardiovasculaires pour les ateliers
+            de Rythmologie, co-animé par le Dr. Gilles Lande, responsable de
+            l'unité de Rythmologie du CHU de Nantes.
+          </p>
+          <div class="btn-tags">
+            <span>Adobe premiere</span>
+            <span>Adobe photoshop</span>
+            <span>Production</span>
+            <span>Tournage</span>
+            <span>Montage</span>
+          </div>
+          <div class="img-item">
+            <div class="img-project" data-aos="fade-left" data-aos-delay="500">
+              <iframe
+                src="https://www.youtube.com/embed/Y5S1Z7gi5ZY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="container-project">
           <h3>Présentation IUT</h3>
           <p class="project-description">
             Mission réalisée pour l'IUT de la Roche-sur-Yon, dans le cadre de

@@ -18,6 +18,27 @@
           </p>
         </div>
         <div class="container-project">
+          <h3>Horizons cardiovasculaire</h3>
+          <p class="project-description">
+            Réalisation de visuel pour les réseaux sociaux du Congrès Horizons
+            Cardiovasculaires, effectué durant mon stage de deuxième année à
+            "l'institut du thorax"
+          </p>
+          <div class="btn-tags">
+            <span>Adobe Photoshop</span>
+            <span>Illustration</span>
+            <span>Vectoriel</span>
+          </div>
+          <div class="img-item">
+            <div class="img-project" data-aos="fade-right" data-aos-delay="500">
+              <img src="../img/176849851_925999888190569_2082758580010300367_n.png" />
+            </div>
+            <div class="img-project" data-aos="fade-left" data-aos-delay="500">
+              <img src="../img/177364711_313740863515527_1747479517987962745_n.png" />
+            </div>
+          </div>
+        </div>
+        <div class="container-project">
           <h3>Ampoules Alumni</h3>
           <p class="project-description">
             Réalisation d'une infographie dans le cadre d'une commandes de l'IUT
