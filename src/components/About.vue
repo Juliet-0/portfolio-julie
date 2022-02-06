@@ -1,6 +1,8 @@
 <template>
   <section id="about">
-    <div class="timeline"><div class="round-timeline"></div></div>
+    <div class="timeline">
+      <div class="round-timeline"></div>
+    </div>
     <h2 data-aos="fade-right" data-aos-delay="100" id="title-about">
       <span class="alt-i alt-user"></span>Profil
       <div class="line-decorate"></div>
@@ -28,20 +30,24 @@
         </div>
       </div>
       <div class="text-description" data-aos="fade-down" data-aos-delay="800">
-        <span
-          >Je m’appelle <b>Julie Patron</b> et je suis en 2ème année de DUT
-          Information et Communication à l’IUT de La Roche sur Yon.</span
-        >
+        <span>
+          Je m’appelle <a href="https://www.linkedin.com/in/julie-patron-99113b1a0/" target="_blank"><b>Julie Patron</b></a> et je suis en licence professionnelle Techniques du son et de l'image à l'IUT d'Angoulême.
+        </span>
+        <span>
+           Cette année, je suis également en alternance en tant que chargée de communication à l'
+          <a href="https://umr1087.univ-nantes.fr/" target="_blank">
+            <b>institut du thorax</b>
+          </a>.
+        </span>
         <span>
           Passionnée par l’audiovisuel et le multimédia, je souhaiterai
           poursuivre ma formation dans ces secteurs d’activité, notamment en
-          approfondissant mes connaissances dans le domaine de la technique du
-          <b>son</b> et de <b>l’image</b>.</span
-        >
+          approfondissant mes connaissances dans le domaine de l'<b>audiovisuel</b> et du <b>motion design</b>.
+        </span>
         <div>
           <a
-            href="https://drive.google.com/file/d/15O-IYdLmCkuhqTj5v2k7nLFI4D1HlzMn/view?usp=sharing"
-            target="_blank"
+              href="https://drive.google.com/file/d/12Cmc5Qkrz2Mw0IlhsdtEmKBjxphcS2za/view?usp=sharing"
+              target="_blank"
           >
             <div class="button-cv">
               <span class="alt-i alt-download"></span> CV
@@ -54,29 +60,29 @@
       <h3 class="title-interests">Centres d'intérêts</h3>
       <div class="icons-interests">
         <span
-          class="alt-i alt-cinema"
-          data-aos="fade-up"
-          data-aos-delay="400"
+            class="alt-i alt-cinema"
+            data-aos="fade-up"
+            data-aos-delay="400"
         ></span>
         <span
-          class="alt-i alt-game-controller"
-          data-aos="fade-up"
-          data-aos-delay="200"
+            class="alt-i alt-game-controller"
+            data-aos="fade-up"
+            data-aos-delay="200"
         ></span>
         <span
-          class="alt-i alt-photo"
-          data-aos="fade-up"
-          data-aos-delay="600"
+            class="alt-i alt-photo"
+            data-aos="fade-up"
+            data-aos-delay="600"
         ></span>
         <span
-          class="alt-i alt-japan"
-          data-aos="fade-up"
-          data-aos-delay="800"
+            class="alt-i alt-japan"
+            data-aos="fade-up"
+            data-aos-delay="800"
         ></span>
         <span
-          class="alt-i alt-cat"
-          data-aos="fade-up"
-          data-aos-delay="1000"
+            class="alt-i alt-cat"
+            data-aos="fade-up"
+            data-aos-delay="1000"
         ></span>
       </div>
     </div>

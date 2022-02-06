@@ -17,7 +17,7 @@ p,
 b,
 .alt-i,
 section {
-  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
+  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
   span span::before,
   div span::before,
   h2 span::before,
@@ -125,7 +125,7 @@ p,
 b,
 .alt-i,
 section {
-  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
+  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
   span span::before,
   div span::before,
   h2 span::before,
@@ -235,7 +235,7 @@ p,
 b,
 .alt-i,
 section {
-  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
+  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
   span span::before,
   div span::before,
   h2 span::before,
@@ -359,6 +359,8 @@ ellipse.round-avatar {
       @media screen and (max-width: 1000px) {
         #about .box-about .text-description {
           width: 100%; } }
+      #about .box-about .text-description a {
+        text-decoration: none; }
       #about .box-about .text-description span:not(.alt-download) {
         font-weight: lighter;
         display: inherit;
@@ -582,18 +584,18 @@ ellipse.round-avatar {
           border-radius: 10px;
           margin-left: 5px;
           background-color: var(--main-color); }
-          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.word {
-            width: 90%; }
+          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.effects {
+            width: 50%; }
           #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.premiere {
             width: 90%; }
           #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.indesign {
             width: 70%; }
           #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.dev {
             width: 65%; }
-          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.video-products {
-            width: 80%; }
-          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.articles {
-            width: 85%; }
+          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.ds-max {
+            width: 50%; }
+          #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.pro-tools {
+            width: 75%; }
           #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.resolve {
             width: 65%; }
           #skills .container-skills .bar div.bar-item div.bar-progress .bar-inner.photoshop {
@@ -660,7 +662,8 @@ ellipse.round-avatar {
       font-weight: 600; }
       @media screen and (max-width: 700px) {
         #contact .infos .contact-info p {
-          font-size: 30px; } }
+          font-size: 30px;
+          text-align: center; } }
     #contact .infos .contact-info .links-contact {
       display: flex;
       justify-content: center;
@@ -675,9 +678,12 @@ ellipse.round-avatar {
         font-size: 50px; }
     #contact .infos .image-avatar {
       width: 400px; }
-      @media screen and (max-width: 1200px) {
-        #contact .infos .image-avatar {
-          width: 300px; } }
+      #contact .infos .image-avatar img {
+        border-radius: 50%; }
+        @media screen and (max-width: 1200px) {
+          #contact .infos .image-avatar img {
+            width: 300px;
+            height: 300px; } }
       @media screen and (max-width: 700px) {
         #contact .infos .image-avatar {
           display: none; } }
@@ -698,7 +704,7 @@ p,
 b,
 .alt-i,
 section {
-  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
+  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
   span span::before,
   div span::before,
   h2 span::before,
@@ -916,7 +922,7 @@ p,
 b,
 .alt-i,
 section {
-  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
+  transition: color 1s ease, background-color 1s ease, border-color 1s ease, -webkit-text-stroke 1s ease; }
   span span::before,
   div span::before,
   h2 span::before,

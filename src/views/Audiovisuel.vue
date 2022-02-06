@@ -5,7 +5,7 @@
     <header class="header-external-pages">
       <span class="alt-i alt-logo"></span>
       <router-link to="/" role="button" class="back"
-        ><span>Back /></span></router-link
+      ><span>Back /></span></router-link
       >
     </header>
     <main>
@@ -15,6 +15,49 @@
           <p>
             Vous trouverez ici quelques projets que j'ai réalisé en audiovisuel!
           </p>
+        </div>
+        <div class="container-project">
+          <h3>Je filme le métier qui me plaît </h3>
+          <p class="project-description">
+            Projet scolaire réalisé avec 3 camarades, nous nous sommes rendus au studio de Mado XR à Paris, pour
+            découvrir une nouvelle technologie : le XR. J’ai pu réaliser des plans de la vidéo avec un ronin et faire
+            les inserts sur After Effect.
+          </p>
+          <div class="btn-tags">
+            <span>Adobe premiere</span>
+            <span>Adobe photoshop</span>
+            <span>Production</span>
+            <span>Tournage</span>
+            <span>Montage</span>
+            <span>Ecriture</span>
+          </div>
+        </div>
+        <div class="container-project">
+          <h3>Endoscopie bronchique</h3>
+          <p class="project-description">
+            Réalisation d'une vidéo teaser dans le cadre de mon stage au CHU de
+            Nantes pour le congrès Horizons Cardiovasculaires pour les ateliers
+            de Rythmologie, co-animé par le Dr. Gilles Lande, responsable de
+            l'unité de Rythmologie du CHU de Nantes.
+          </p>
+          <div class="btn-tags">
+            <span>Adobe premiere</span>
+            <span>Adobe photoshop</span>
+            <span>Production</span>
+            <span>Tournage</span>
+            <span>Montage</span>
+            <span>Ecriture</span>
+          </div>
+          <div class="img-item">
+            <div class="img-project" data-aos="fade-left" data-aos-delay="500">
+              <iframe
+                  src="https://www.youtube.com/embed/P2N47hq6p9E"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+              </iframe>
+            </div>
+          </div>
         </div>
         <div class="container-project">
           <h3>Congrès HCV 2021</h3>
@@ -34,11 +77,11 @@
           <div class="img-item">
             <div class="img-project" data-aos="fade-left" data-aos-delay="500">
               <iframe
-                src="https://www.youtube.com/embed/Y5S1Z7gi5ZY"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                  src="https://www.youtube.com/embed/Y5S1Z7gi5ZY"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
               ></iframe>
             </div>
           </div>
@@ -62,20 +105,20 @@
           <div class="img-item">
             <div class="img-project" data-aos="fade-left" data-aos-delay="500">
               <iframe
-                src="https://www.youtube.com/embed/rMe5zEXS-OY"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                  src="https://www.youtube.com/embed/rMe5zEXS-OY"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
               ></iframe>
             </div>
             <div class="img-project" data-aos="fade-right" data-aos-delay="500">
               <iframe
-                src="https://www.youtube.com/embed/k_MzEG94Vrw"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                  src="https://www.youtube.com/embed/k_MzEG94Vrw"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
               ></iframe>
             </div>
           </div>
@@ -97,11 +140,11 @@
           <div class="img-item">
             <div class="img-project" data-aos="fade-right" data-aos-delay="500">
               <iframe
-                src="https://www.youtube.com/embed/PwYBPjht7iY"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                  src="https://www.youtube.com/embed/PwYBPjht7iY"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
               ></iframe>
             </div>
           </div>
@@ -124,11 +167,11 @@
           <div class="img-item">
             <div class="img-project" data-aos="fade-left" data-aos-delay="500">
               <iframe
-                src="https://www.youtube.com/embed/uaCE0rWpeAQ"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                  src="https://www.youtube.com/embed/uaCE0rWpeAQ"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
               ></iframe>
             </div>
           </div>

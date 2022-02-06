@@ -139,6 +139,10 @@
         width: 100%;
       }
 
+      a {
+        text-decoration: none;
+      }
+
       span:not(.alt-download) {
         font-weight: lighter;
         display: inherit;

@@ -54,6 +54,7 @@
 
         @media screen and (max-width: 700px) {
           font-size: 30px;
+          text-align: center;
         }
       }
 
@@ -80,8 +81,12 @@
     .image-avatar {
       width: 400px;
 
-      @media screen and (max-width: 1200px) {
-        width: 300px;
+      img {
+        border-radius: 50%;
+        @media screen and (max-width: 1200px) {
+          width: 300px;
+          height: 300px;
+        }
       }
 
       @media screen and (max-width: 700px) {

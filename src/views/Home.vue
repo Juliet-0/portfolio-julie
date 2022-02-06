@@ -24,7 +24,7 @@
       <section id="home">
         <div id="home-text">
           <span class="line-title-1">Julie Patron</span>
-          <span class="line-title-2">Etudiante en communication</span>
+          <span class="line-title-2">Etudiante en audiovisuel</span>
         </div>
       </section>
       <color-picker></color-picker>

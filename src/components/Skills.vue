@@ -14,13 +14,13 @@
       <div class="bar">
         <div class="container-bar">
           <div class="bar-item">
-            <p>Microsoft Word</p>
+            <p>After effects</p>
             <div
               class="bar-progress"
               data-aos="fade-right"
               data-aos-delay="500"
             >
-              <div class="bar-inner word"></div>
+              <div class="bar-inner effects"></div>
             </div>
           </div>
           <div class="bar-item">
@@ -64,15 +64,15 @@
             </div>
           </div>
           <div class="bar-item">
-            <p>Rédaction d'articles</p>
+            <p>Pro tools</p>
             <div class="bar-progress" data-aos="fade-left" data-aos-delay="500">
-              <div class="bar-inner articles"></div>
+              <div class="bar-inner pro-tools"></div>
             </div>
           </div>
           <div class="bar-item">
-            <p>Utilisation de matériel vidéo</p>
+            <p>3DS Max</p>
             <div class="bar-progress" data-aos="fade-left" data-aos-delay="500">
-              <div class="bar-inner video-products"></div>
+              <div class="bar-inner ds-max"></div>
             </div>
           </div>
           <div class="bar-item">
