@@ -120,23 +120,6 @@
             </div>
           </div>
         </div>
-        <div class="container-project">
-          <h3>Affiche Evenlynn</h3>
-          <p class="project-description">
-            Réalisation d'une bannière Youtube fictive dans le cadre d'un
-            entraînement personnel sur le logiciel Photoshop.
-          </p>
-          <div class="btn-tags">
-            <span>Photoshop</span>
-            <span>Bannière</span>
-            <span>Illustration</span>
-          </div>
-          <div class="img-item">
-            <div class="img-project" data-aos="fade-left" data-aos-delay="500">
-              <img src="../img/evie.png"/>
-            </div>
-          </div>
-        </div>
       </section>
     </main>
 

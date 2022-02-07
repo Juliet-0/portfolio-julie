@@ -17,19 +17,44 @@
           </p>
         </div>
         <div class="container-project">
+          <h3>Team Ikarus</h3>
+          <p class="project-description">
+            Entraînement personnel sur le logiciel After Effects pour l’équipe esportive fictive “Ikarus”
+          </p>
+          <div class="btn-tags">
+            <span>After Effects</span>
+          </div>
+          <div class="img-item">
+            <div class="img-project" data-aos="fade-left" data-aos-delay="500">
+              <iframe
+                  src="https://www.youtube.com/embed/B0dLHYtld7U"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <div class="container-project">
           <h3>Je filme le métier qui me plaît </h3>
           <p class="project-description">
             Projet scolaire réalisé avec 3 camarades, nous nous sommes rendus au studio de Mado XR à Paris, pour
             découvrir une nouvelle technologie : le XR. J’ai pu réaliser des plans de la vidéo avec un ronin et faire
-            les inserts sur After Effect.
+            les inserts sur After Effects.
           </p>
           <div class="btn-tags">
-            <span>Adobe premiere</span>
-            <span>Adobe photoshop</span>
-            <span>Production</span>
+            <span>Premiere Pro</span>
+            <span>After Effects</span>
             <span>Tournage</span>
-            <span>Montage</span>
-            <span>Ecriture</span>
+          </div>
+          <div class="img-item">
+            <div class="img-project" data-aos="fade-left" data-aos-delay="500">
+              <iframe src="https://www.youtube.com/embed/wYLFsm-ShxI"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen>
+              </iframe>
+            </div>
           </div>
         </div>
         <div class="container-project">
@@ -141,33 +166,6 @@
             <div class="img-project" data-aos="fade-right" data-aos-delay="500">
               <iframe
                   src="https://www.youtube.com/embed/PwYBPjht7iY"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-        </div>
-        <div class="container-project">
-          <h3>Vie de chat</h3>
-          <p class="project-description">
-            Vidéo réalisée dans le cadre d'un projet audiovisuel en DUT
-            information-communication. L'objectif était ici de proposer une
-            réalisation avec des contraintes techniques liées au confinement.
-            Pour cet exercice, j'ai décidé de mettre en avant la vie de mon
-            animal grâce à mon téléphone portable.
-          </p>
-          <div class="btn-tags">
-            <span>Téléphone portable</span>
-            <span>Adobe Premiere</span>
-            <span>Montage</span>
-            <span>Prise de vue</span>
-          </div>
-          <div class="img-item">
-            <div class="img-project" data-aos="fade-left" data-aos-delay="500">
-              <iframe
-                  src="https://www.youtube.com/embed/uaCE0rWpeAQ"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

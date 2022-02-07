@@ -62,11 +62,8 @@
             <span>Portrait</span>
           </div>
           <div class="img-item">
-            <div class="img-project" data-aos="fade-left" data-aos-delay="500">
-              <img src="../img/assise saturé rouge.png" />
-            </div>
-            <div class="img-project" data-aos="fade-right" data-aos-delay="800">
-              <img class="right" src="../img/sans veste peau foncé.png" />
+            <div class="img-project" data-aos="fade-right" data-aos-delay="500">
+              <img src="../img/assise saturé rouge.png" class="right" />
             </div>
             <div class="img-project" data-aos="fade-left" data-aos-delay="1000">
               <img src="../img/DSC04454(2).jpg" />
