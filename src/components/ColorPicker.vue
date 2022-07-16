@@ -1,7 +1,7 @@
 <template>
   <div class="tool_container">
     <div class="tools_panel">
-      <p>Colors</p>
+      <p>Couleurs</p>
       <div class="colors">
         <div class="color color-green" v-on:click="changeColor()"></div>
         <div class="color color-blue" v-on:click="changeColor()"></div>

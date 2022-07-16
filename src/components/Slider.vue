@@ -12,6 +12,12 @@
             transition: `${transition}`,
           }"
         >
+          <router-link to="graphic-design"
+            ><img
+              src="../img/design-graphique.gif"
+              alt="Image pour accéder à la catégorie design graphique"
+              class="img-slider"
+          /></router-link>
           <router-link to="audiovisuel"
             ><img
               src="../img/audiovisuel.png"
@@ -24,15 +30,9 @@
               alt="Image pour accéder à la catégorie photographie"
               class="img-slider"
           /></router-link>
-          <router-link to="graphic-design"
-            ><img
-              src="../img/design-graphique.png"
-              alt="Image pour accéder à la catégorie design graphique"
-              class="img-slider"
-          /></router-link>
         </div>
       </div>
-      <button @click="next" type="button" class="btn btn-right">
+      <button v-on:click="next" type="button" class="btn btn-right">
         <span class="alt-i alt-chevron-right"></span>
       </button>
     </div>

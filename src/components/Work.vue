@@ -8,37 +8,30 @@
     </h2>
     <div data-aos="fade-up" data-aos-delay="800" class="work-description">
       <p>
-        Lors de différents projets professionnels et personnels, j’ai eu
+        A l'occasion de différents projets professionnels et personnels, j’ai eu
         l’opportunité de travail dans différents domaines, que ce soit en
-        audiovisuel, en photographie et en design graphique.
+        communication, en audiovisuel ou en photographie.
       </p>
       <span>Pour en savoir plus:</span>
     </div>
     <slider></slider>
     <div class="gallery-work">
       <div class="work-category">
-        <router-link to="audiovisuel"
-          ><img
-            src="../img/audiovisuel.png"
-            alt="Image pour accéder à la catégorie audiovisuel"
-        /></router-link>
+        <router-link to="audiovisuel"><img src="../img/audiovisuel.png"
+            alt="Image pour accéder à la catégorie audiovisuel" /></router-link>
         <p>Audiovisuel</p>
       </div>
       <div class="work-category">
-        <router-link to="photographie">
-          <img
-            src="../img/photographie.png"
-            alt="Image pour accéder à la catégorie photographie"
-        /></router-link>
-        <p>Photographie</p>
+        <router-link to="graphic-design">
+          <img src="../img/design-graphique.png" alt="Image pour accéder à la catégorie design graphique" />
+        </router-link>
+        <p>Communication</p>
       </div>
       <div class="work-category">
-        <router-link to="graphic-design">
-          <img
-            src="../img/design-graphique.png"
-            alt="Image pour accéder à la catégorie design graphique"
-        /></router-link>
-        <p>Design graphique</p>
+        <router-link to="photographie">
+          <img src="../img/photographie.png" alt="Image pour accéder à la catégorie photographie" />
+        </router-link>
+        <p>Photographie</p>
       </div>
     </div>
   </section>

@@ -7,7 +7,7 @@
     </h2>
     <div class="infos">
       <div class="contact-info">
-        <p>Vous pouvez me retrouver grâce à:</p>
+        <p>N'hésitez pas à me contacter:</p>
         <div class="links-contact">
           <a
               href="https://www.linkedin.com/in/julie-patron-99113b1a0/"

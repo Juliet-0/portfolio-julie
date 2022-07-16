@@ -14,43 +14,27 @@
       <div class="bar">
         <div class="container-bar">
           <div class="bar-item">
-            <p>After effects</p>
-            <div
-              class="bar-progress"
-              data-aos="fade-right"
-              data-aos-delay="500"
-            >
-              <div class="bar-inner effects"></div>
+            <p>Photoshop</p>
+            <div class="bar-progress" data-aos="fade-left" data-aos-delay="500">
+              <div class="bar-inner photoshop"></div>
             </div>
           </div>
           <div class="bar-item">
-            <p>Adobe premiere</p>
-            <div
-              class="bar-progress"
-              data-aos="fade-right"
-              data-aos-delay="500"
-            >
+            <p>Premiere</p>
+            <div class="bar-progress" data-aos="fade-right" data-aos-delay="500">
               <div class="bar-inner premiere"></div>
             </div>
           </div>
           <div class="bar-item">
-            <p>Adobe Indesign</p>
-            <div
-              class="bar-progress"
-              data-aos="fade-right"
-              data-aos-delay="500"
-            >
+            <p>After Effects</p>
+            <div class="bar-progress" data-aos="fade-right" data-aos-delay="500">
               <div class="bar-inner indesign"></div>
             </div>
           </div>
           <div class="bar-item">
-            <p>Développement web</p>
-            <div
-              class="bar-progress"
-              data-aos="fade-right"
-              data-aos-delay="500"
-            >
-              <div class="bar-inner dev"></div>
+            <p>Indesign</p>
+            <div class="bar-progress" data-aos="fade-right" data-aos-delay="500">
+              <div class="bar-inner effects"></div>
             </div>
           </div>
         </div>
@@ -58,15 +42,15 @@
       <div class="bar">
         <div class="container-bar">
           <div class="bar-item">
-            <p>Adobe Photoshop</p>
+            <p>Pack Office</p>
             <div class="bar-progress" data-aos="fade-left" data-aos-delay="500">
-              <div class="bar-inner photoshop"></div>
+              <div class="bar-inner pro-tools"></div>
             </div>
           </div>
           <div class="bar-item">
-            <p>Pro tools</p>
-            <div class="bar-progress" data-aos="fade-left" data-aos-delay="500">
-              <div class="bar-inner pro-tools"></div>
+            <p>Développement web</p>
+            <div class="bar-progress" data-aos="fade-right" data-aos-delay="500">
+              <div class="bar-inner dev"></div>
             </div>
           </div>
           <div class="bar-item">

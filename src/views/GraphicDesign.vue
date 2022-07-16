@@ -11,29 +11,20 @@
     <main>
       <section id="graphic-design">
         <h2 class="title-pages">Design graphique</h2>
-        <div class="description">
-          <p>
-            Vous trouverez ici quelques projets que j'ai réalisé en design
-            graphique!
-          </p>
-        </div>
         <div class="container-project">
-          <h3>Bienvenue à l’institut du thorax</h3>
+          <h3>Bienvenue à l'institut du thorax</h3>
           <p class="project-description">
             Dans le cadre du développement de la communication de l'institut du thorax au sein du CHU de Nantes, j'ai
             réalisé deux affiches afin de mettre en avant les activités du centre.
           </p>
           <div class="btn-tags">
-            <span>Adobe Photoshop</span>
-            <span>Illustration</span>
+            <span>Illustrator</span>
+            <span>Indesign</span>
             <span>Vectoriel</span>
           </div>
           <div class="img-item">
             <div class="img-project" data-aos="fade-right" data-aos-delay="500">
-              <img src="../img/Piste1IndesignV5_Infirmière-1.png"/>
-            </div>
-            <div class="img-project" data-aos="fade-left" data-aos-delay="500">
-              <img src="../img/Piste3IndesignV5_Equipe-1.png"/>
+              <img src="../img/Affiche-COEUR-JOURNEE-PATIENTS-724x1024.png"/>
             </div>
           </div>
         </div>

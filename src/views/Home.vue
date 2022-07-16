@@ -24,7 +24,7 @@
       <section id="home">
         <div id="home-text">
           <span class="line-title-1">Julie Patron</span>
-          <span class="line-title-2">Etudiante en audiovisuel</span>
+          <span class="line-title-2">Etudiante en communication</span>
         </div>
       </section>
       <color-picker></color-picker>
@@ -34,7 +34,7 @@
       <skills></skills>
       <contact></contact>
     </main>
-    <footer><p class="info-footer">© Copyright 2021 - Julie Patron</p></footer>
+    <footer><p class="info-footer">© Copyright 2022 - Juliet Patron</p></footer>
   </div>
 </template>
 

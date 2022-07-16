@@ -23,13 +23,13 @@ export default {
 
       switch (myIndex) {
         case 0:
-          myText = "Audiovisuel";
+          myText = "Communication";
           break;
         case -750:
-          myText = "Photographie";
+          myText = "Audiovisuel";
           break;
         case -1500:
-          myText = "Design graphique";
+          myText = "Photographie";
           break;
       }
       this.$emit("changeText", myText);
