@@ -5,17 +5,19 @@
     <header class="header-external-pages">
       <span class="alt-i alt-logo"></span>
       <router-link to="/" role="button" class="back"
-      ><span>Back /></span></router-link
+        ><span>Back /></span></router-link
       >
     </header>
     <main>
       <section id="graphic-design">
         <h2 class="title-pages">Design graphique</h2>
         <div class="container-project">
-          <h3>Bienvenue à l'institut du thorax</h3>
+          <h3>Affiche journée patient</h3>
           <p class="project-description">
-            Dans le cadre du développement de la communication de l'institut du thorax au sein du CHU de Nantes, j'ai
-            réalisé deux affiches afin de mettre en avant les activités du centre.
+            Création d’une affiche pour l’organisation d’une journée patient en
+            octobre 2022. Le QR Code, en bas de l'affiche, peut être scanné. Il
+            nous redirige vers le site de l’institut du thorax pour consulter le
+            programme, mais aussi pour s’inscrire.
           </p>
           <div class="btn-tags">
             <span>Illustrator</span>
@@ -24,7 +26,7 @@
           </div>
           <div class="img-item">
             <div class="img-project" data-aos="fade-right" data-aos-delay="500">
-              <img src="../img/Affiche-COEUR-JOURNEE-PATIENTS-724x1024.png"/>
+              <img src="../img/Affiche-COEUR-JOURNEE-PATIENTS-724x1024.png" />
             </div>
           </div>
         </div>
@@ -42,10 +44,14 @@
           </div>
           <div class="img-item">
             <div class="img-project" data-aos="fade-right" data-aos-delay="500">
-              <img src="../img/176849851_925999888190569_2082758580010300367_n.png"/>
+              <img
+                src="../img/176849851_925999888190569_2082758580010300367_n.png"
+              />
             </div>
             <div class="img-project" data-aos="fade-left" data-aos-delay="500">
-              <img src="../img/177364711_313740863515527_1747479517987962745_n.png"/>
+              <img
+                src="../img/177364711_313740863515527_1747479517987962745_n.png"
+              />
             </div>
           </div>
         </div>
@@ -66,7 +72,7 @@
           </div>
           <div class="img-item">
             <div class="img-project" data-aos="fade-left" data-aos-delay="500">
-              <img src="../img/alumni.png"/>
+              <img src="../img/alumni.png" />
             </div>
           </div>
         </div>
@@ -85,7 +91,7 @@
           </div>
           <div class="img-item">
             <div class="img-project" data-aos="fade-left" data-aos-delay="500">
-              <img src="../img/Affiche A3 version prof.png"/>
+              <img src="../img/Affiche A3 version prof.png" />
             </div>
           </div>
         </div>
@@ -107,7 +113,7 @@
           </div>
           <div class="img-item">
             <div class="img-project" data-aos="fade-left" data-aos-delay="500">
-              <img src="../img/discrimination.png"/>
+              <img src="../img/discrimination.png" />
             </div>
           </div>
         </div>
