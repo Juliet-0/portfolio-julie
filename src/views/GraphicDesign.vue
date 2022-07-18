@@ -12,7 +12,7 @@
       <section id="graphic-design">
         <h2 class="title-pages">Design graphique</h2>
         <div class="container-project">
-          <h3>Affiche journée patient</h3>
+          <h3>Affiche journée patients</h3>
           <p class="project-description">
             Création d’une affiche pour l’organisation d’une journée patient en
             octobre 2022. Le QR Code, en bas de l'affiche, peut être scanné. Il
