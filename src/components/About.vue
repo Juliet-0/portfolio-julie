@@ -56,7 +56,7 @@
         </span>
         <div>
           <a
-            href="https://drive.google.com/file/d/12Cmc5Qkrz2Mw0IlhsdtEmKBjxphcS2za/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Fl4b4_2qHme4MA3NHklZjCF1Gmo5rK5l/view?usp=sharing"
             target="_blank"
           >
             <div class="button-cv">
