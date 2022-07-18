@@ -23,7 +23,7 @@
       </div>
       <div class="work-category">
         <router-link to="graphic-design">
-          <img src="../img/design-graphique.png" alt="Image pour accéder à la catégorie design graphique" />
+          <img src="../img/design-graphique.gif" alt="Image pour accéder à la catégorie design graphique" />
         </router-link>
         <p>Communication</p>
       </div>
