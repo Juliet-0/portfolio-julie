@@ -6,7 +6,7 @@
       <div class="line-decorate"></div>
     </h2>
     <p class="skills-description" data-aos="fade-up" data-aos-delay="800">
-      Que ce soit durant mes études ou mon temps personnels, j'ai eu l'occassion
+      Que ce soit durant mes études ou mon temps personnel, j'ai eu l'occassion
       d'acquérir de nombreuses compétences dans le domaine du multimédia et de
       la communication.
     </p>

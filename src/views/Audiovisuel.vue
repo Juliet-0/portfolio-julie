@@ -107,7 +107,7 @@
         <div class="container-project">
           <h3>Team Ikarus</h3>
           <p class="project-description">
-            Entraînement personnel sur le logiciel After Effects pour l’équipe esportive fictive “Ikarus”
+            Entraînement sur le logiciel After Effects pour l’équipe esportive fictive “Ikarus”
           </p>
           <div class="btn-tags">
             <span>After Effects</span>
